@@ -37,6 +37,7 @@ print(umar >= 18 and id_hai)
 print(umar < 18 or id_hai)
 print(not id_hai)
 
+# Topic: 5. Pracedence Operators(Kaun pehle chalega)
 print(17 // 5)
 print(17 % 5)
 

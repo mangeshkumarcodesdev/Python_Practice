@@ -1,17 +1,17 @@
-# File name: V_and_D_T_Practice.py
+# File name: Chapter1_data_types.py
 # Topic: Variable_and_Data_Types
 # 1. String (text)
-naam = "Mangesh"
-print("Mera naam:", naam)
+name = "Mangesh"
+print("My name is:", name)
 
-# 2. Integer (Pura Number)
-umar = 22
-print("Meri umar(age):", umar)
+# 2. Integer (Whole Number)
+age = 22
+print("My age is:", age, "years")
 
-# 3. Float (Decimal Wala Number)
+# 3. Float (Decimal Number)
 height = 5.8
-print("Meri height:", height, "feet")
+print("My height is:", height, "feet")
 
-# 4. Booleal (True ya False)
-kya_mai_student_hu = True
-print("Kya main student hoon?:", kya_mai_student_hu)
+# 4. Booleal (True and False)
+is_student = True
+print("Am I a student?:", is_student)
