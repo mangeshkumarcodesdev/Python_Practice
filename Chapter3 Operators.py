@@ -1,5 +1,5 @@
 # Chapter3: Operator
-# Topic: 1.Arithmetic Operators(ganit)➡️
+# Topic: 1.Arithmetic Operators(math)➡️
 a = 10
 b = 3
 
@@ -11,8 +11,8 @@ print(a // b)
 print(a % b)
 print(a ** b)
 
-# Topic: 2. Comparison Operators(tulna)➡
-# Boolean me hamesha True ya False
+# Topic: 2. Comparison Operators➡
+# Boolean main True ya False
 print(a == b)
 print(a != b)
 print(a > b)
@@ -28,28 +28,6 @@ x //= 5  # x = x // 5 → 4
 x **= 2  # x = x ** 2 → 16
 print(x) # 16
 
-# Topic: 4. Logical Operators(and, or, not)➡
-
-umar = 22
-id_hai = True
-
-print(umar >= 18 and id_hai)
-print(umar < 18 or id_hai)
-print(not id_hai)
-
-# Topic: 5. Pracedence Operators(Kaun pehle chalega)
-print(17 // 5)
-print(17 % 5)
-
-number = 14
-is_even = (number % 2 == 0)
-print(is_even)
-
-
-umar = 22
-vote_de_sakte_ho = True
-print(umar >= 18 and vote_de_sakte_ho)
-
 x = 7
 x += 3
 print(x)
@@ -57,3 +35,28 @@ x *= 2
 print(x)
 x **= 2
 print(x)
+# Topic: 4. Logical Operators(and, or, not)➡
+
+age = 22
+has_id = True
+
+print(age >= 18 and has_id)
+print(age < 18 or has_id)
+print(not has_id)
+a = 10
+print(a > 5 and a < 20) 
+age = 22
+can_vote = True
+print(age >= 18 and can_vote)
+
+# Topic: 5. Pracedence Operators
+result = 10 + 5 * 2
+print(result)
+print((10 + 5) * 2)
+print(17 // 5)
+print(17 % 5)
+a = 20 / 5 * 2
+print(a)
+number = 14
+is_even = (number % 2 == 0)
+print(is_even)
